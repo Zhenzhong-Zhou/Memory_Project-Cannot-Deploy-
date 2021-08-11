@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import posts from "../routes/posts";
+import posts from "../routes/posts.js";
 
 const postSchema = mongoose.Schema({
     title: String,
